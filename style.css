@@ -187,3 +187,50 @@
 .sec4 .row .col img:hover {
     transform: translateY(-5px);
 }
+.sec5 > h2 {
+    font-size: 1.6em;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.sec5 > p {
+    font-size: 0.78em;
+    font-weight: 400;
+    margin-bottom: 30px;
+    opacity: 0.7;
+}
+.sec5 .row {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 20px;
+}
+.sec5 .row .col {
+    width: 35%;
+    display: flex;
+    text-align: left;
+    background-color: #e7e4e481;
+    padding: 20px; 
+    border-radius: 10px;
+    transition: 0.4s;
+}
+.sec5 .row .col:hover {
+    box-shadow: 0 0 10px #cecacacb,
+                0 0 15px #bbb7b7cb;
+    cursor: pointer;
+}
+.sec5 .row .col .image img {
+    border-radius: 50%;
+    height: 45px;
+}
+.sec5 .row .col .text {
+    padding: 5px 15px;
+}
+.sec5 .row .col .text p {
+    font-size: 0.75em;
+    opacity: 0.85;
+}
+.sec5 .row .col .text h5 {
+    padding: 10px 0;
+}
+.sec5 ion-icon {
+    color: rgb(121, 156, 50);
+}

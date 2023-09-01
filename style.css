@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    color: #000;
+}
+.sec1 {
+    height: 100vh;
+    background: linear-gradient(rgba(4,9,30,0.8), rgba(4,9,30,0.8)), url(Media/background.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.sec1 header nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 75px;
+}
+.sec1 header nav > a {
+    font-size: 1.3em;
+    font-weight: 700;
+    color: #fff;
+}
+.sec1 header nav > a span {
+    color: #dab4b4;
+    font-weight: 700;
+}
+.sec1 header nav ul li {
+    display: inline-block;
+    list-style: none;
+}
+.sec1 header nav ul li a {
+    font-size: 0.8em;
+    color: #fff;
+    font-weight: 500;
+    opacity: 0.8;
+    padding: 0 5px;
+    margin-left: 10px;
+    transition: 0.3s;
+}
+.sec1 header nav ul li a:hover {
+    color: #dab4b4;
+}
+.sec1 .text {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -45%);
+    text-align: center;
+    width: 100%;
+}
+.sec1 .text h1 {
+    font-size: 2.9em;
+    color: #fff;
+    font-weight: 700;
+    word-spacing: 2px;
+}
+.sec1 .text p {
+    font-size: 0.75em;
+    color: #fff;
+    opacity: 0.9;
+    margin: 15px 0 35px;
+}
+.btn {
+    border: 2px solid #fff;
+    border-radius: 3px;
+    opacity: 0.85;
+    color: #fff;
+    padding: 7px 18px;
+    font-size: 0.9em;
+    font-weight: 600;
+    transition: 0.3s;
+}
+.btn:hover {
+    color: #000;
+    background: #fff;
+    box-shadow: 0 0 5px #fff,
+                0 0 10px #fff;
+}

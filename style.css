@@ -79,3 +79,44 @@
     box-shadow: 0 0 5px #fff,
                 0 0 10px #fff;
 }
+.sec2, .sec3, .sec4, .sec5, .sec6 {
+    text-align: center;
+    margin: 100px 0;
+}
+.sec2 h2 {
+    font-size: 1.7em;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.sec2 > p {
+    font-size: 0.78em;
+    font-weight: 400;
+    margin-bottom: 50px;
+    opacity: 0.9;
+}
+.sec2 .row {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+.sec2 .row .col {
+    width: 27%;
+    background-color: #e7e4e481;
+    border-radius: 10px;
+    padding: 12px 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.sec2 .row .col:hover {
+    box-shadow: 0 0 10px #cecacacb,
+                0 0 18px #bdbabacb;
+}
+.sec2 .row .col h3 {
+    font-size: 0.97em;
+    margin: 8px 0 0;
+}
+.sec2 .row .col p {
+    font-size: 0.73em;
+    opacity: 0.9;
+    padding: 12px 20px;
+}

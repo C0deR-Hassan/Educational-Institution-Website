@@ -81,7 +81,7 @@
 }
 .sec2, .sec3, .sec4, .sec5, .sec6 {
     text-align: center;
-    margin: 100px 0;
+    margin: 100px 0 100px;
 }
 .sec2 h2 {
     font-size: 1.7em;
@@ -123,7 +123,6 @@
 .sec3 {
     margin: auto;
     width: 100%;
-    margin-bottom: 100px;
 }
 .sec3 > h2 {
     font-size: 1.7em;
@@ -157,4 +156,34 @@
 .sec3 .row .col p {
     font-size: 0.75em;
     opacity: 0.8;
+}
+.sec4 > h2 {
+    font-size: 1.6em;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.sec4 > p {
+    font-size: 0.78em;
+    font-weight: 400;
+    margin-bottom: 30px;
+    opacity: 0.7;
+}
+.sec4 .row {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 90px;
+}
+.sec4 .row .col {
+    width: 30%;
+    position: relative;
+    cursor: pointer;
+    text-align: center;
+}
+.sec4 .row .col img {
+    width: 100%;
+    border-radius: 12px;
+    transition: 0.4s;
+}
+.sec4 .row .col img:hover {
+    transform: translateY(-5px);
 }

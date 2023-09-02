@@ -7,6 +7,7 @@
     text-decoration: none;
     color: #000;
 }
+
 .sec1 {
     height: 100vh;
     background: linear-gradient(rgba(4,9,30,0.8), rgba(4,9,30,0.8)), url(Media/background.jpg) no-repeat;
@@ -65,13 +66,13 @@
 }
 .btn {
     border: 2px solid #fff;
-    border-radius: 3px;
+    border-radius: 2px;
     opacity: 0.85;
     color: #fff;
     padding: 7px 18px;
     font-size: 0.9em;
     font-weight: 600;
-    transition: 0.3s;
+    transition: 0.4s;
 }
 .btn:hover {
     color: #000;
@@ -79,10 +80,12 @@
     box-shadow: 0 0 5px #fff,
                 0 0 10px #fff;
 }
+
 .sec2, .sec3, .sec4, .sec5, .sec6 {
     text-align: center;
     margin: 100px 0 100px;
 }
+
 .sec2 h2 {
     font-size: 1.7em;
     font-weight: 600;
@@ -120,6 +123,7 @@
     opacity: 0.9;
     padding: 12px 20px;
 }
+
 .sec3 {
     margin: auto;
     width: 100%;
@@ -157,6 +161,7 @@
     font-size: 0.75em;
     opacity: 0.8;
 }
+
 .sec4 > h2 {
     font-size: 1.6em;
     font-weight: 600;
@@ -187,6 +192,7 @@
 .sec4 .row .col img:hover {
     transform: translateY(-5px);
 }
+
 .sec5 > h2 {
     font-size: 1.6em;
     font-weight: 600;
@@ -204,11 +210,11 @@
     padding: 0 20px;
 }
 .sec5 .row .col {
-    width: 35%;
+    width: 40%;
     display: flex;
     text-align: left;
     background-color: #e7e4e481;
-    padding: 20px; 
+    padding: 20px 10px; 
     border-radius: 10px;
     transition: 0.4s;
 }
@@ -233,4 +239,28 @@
 }
 .sec5 ion-icon {
     color: rgb(121, 156, 50);
+}
+
+.sec6 {
+    width: 80%;
+    margin: 130px auto 100px;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(Media/calltoaction.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    border-radius: 12px;
+    position: relative;
+}
+.sec6 .text {
+    width: 100%;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-45%);
+}
+.sec6 .text h3 {
+    color: #fff;
+    font-size: 1.8em;
+    font-weight: 600;
+    margin-bottom: 25px;
 }
